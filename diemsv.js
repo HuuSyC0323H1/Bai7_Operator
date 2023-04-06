@@ -1,0 +1,12 @@
+let a;
+let b;
+let c;
+let ara;
+let bera;
+a=parseInt(prompt("Diem mom Vat Ly"));
+b=parseInt(prompt("Diem mon Hoa Hoc"));
+c=parseInt(prompt("Diem mon Sinh hoc"));
+ara=(a+b+c)/3;
+bera=ara*3;
+document.write("Diem trung binh=" +ara +"<br>");
+document.write("Diem tong=" +bera);
